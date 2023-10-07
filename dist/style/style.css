@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+
+#content
+{
+    background-image: url(./../img/puttu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(98, 54, 3, 0.473);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar
+{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.479);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-icon
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.hotel-name
+{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 4rem;
+
+    color: rgb(221, 149, 54);
+}
+
+#main-logo
+{
+    height: 4rem;
+
+}
+
+.nav-options-cont
+{
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+
+}
+
+.nav-options
+{
+    font-family: 'Reenie Beanie', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-options:hover
+{
+    scale: 1.2;
+    color: darksalmon;
+    cursor: pointer;
+    
+
+}
+
+.content-sect
+{
+    width: 60%;
+    min-width: 10rem;
+    max-width: 200rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(90, 53, 8, 0.637);
+    padding: 5rem;
+}
+
+.no-display
+{
+    display: none;
+}
+
+
+
+
+.about-img
+{
+    width: 70%;
+    border-radius: 40px;
+
+}
+
+.about-para
+{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+    color: azure;
+}
+
+.menu-item
+{
+    margin: 5rem;
+}
+
+.menu-img
+{
+    width: 30rem;
+    border-radius: 30px;
+    box-shadow: 0 0 16px black;
+}
+
+.menu-descr
+{
+    text-align: center;
+    font-size: 2rem;
+    color: aliceblue;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+#footer
+{
+    width: 100%;
+    text-align: center;
+    color: antiquewhite;
+
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+
